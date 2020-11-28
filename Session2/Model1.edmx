@@ -480,7 +480,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="Session2Entities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Session2Entities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="AssetGroups" EntityType="Self.AssetGroup" />
           <EntitySet Name="Assets" EntityType="Self.Asset" />
           <EntitySet Name="ChangedParts" EntityType="Self.ChangedPart" />
@@ -533,7 +533,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Session2ModelStoreContainer" CdmEntityContainer="Session2Entities1">
+        <EntityContainerMapping StorageEntityContainer="Session2ModelStoreContainer" CdmEntityContainer="Session2Entities2">
           <EntitySetMapping Name="AssetGroups">
             <EntityTypeMapping TypeName="Session2Model.AssetGroup">
               <MappingFragment StoreEntitySet="AssetGroups">
