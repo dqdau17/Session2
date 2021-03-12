@@ -8,6 +8,6 @@ namespace Session2
 {
     public static class Connect
     {
-        public static Session2Entities1 db = new Session2Entities1();
+        public static Session2Entities db = new Session2Entities();
     }
 }
