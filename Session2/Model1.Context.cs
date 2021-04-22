@@ -13,17 +13,10 @@ namespace Session2
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-<<<<<<< HEAD
     public partial class Session2Entities : DbContext
     {
         public Session2Entities()
             : base("name=Session2Entities")
-=======
-    public partial class Session2Entities2 : DbContext
-    {
-        public Session2Entities2()
-            : base("name=Session2Entities2")
->>>>>>> 608d27b04581aab05444b3100ec3cbcdf4d9c664
         {
         }
     
